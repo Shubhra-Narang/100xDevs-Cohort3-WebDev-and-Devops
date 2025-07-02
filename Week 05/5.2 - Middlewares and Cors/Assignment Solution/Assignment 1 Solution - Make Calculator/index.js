@@ -101,7 +101,7 @@ app.post("/divide", (req, res) => {
 
     // send the result of dividing a and b as a response to the client
     res.send({
-        result: a / b,
+        result: a / ,
     });
 });
 
